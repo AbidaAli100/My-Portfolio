@@ -1,0 +1,421 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#menu {
+    background-color: #ffffff79;
+}
+
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+ul.navbar-nav {
+    float: right;
+    text-align: center;
+    list-style: none;
+}
+
+ul.navbar-nav li {
+    padding: 0 10px;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width:767px) {
+    ul.navbar-nav {
+        float: none;
+    }
+}
+
+.container-fluid {
+    padding: 0 1em;
+}
+
+
+/* button */
+
+.btn {
+    /* border: 2px solid white; */
+    /* color: white; */
+    margin-left: 2em;
+    margin-top: 1em;
+    align-items: center;
+    padding: .6em;
+    font-size: 1em;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px rgb(206, 55, 55);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.active,
+button:hover {
+    background-color: rgb(3, 90, 93);
+}
+
+.navbar-nav li a {
+    color: black!important;
+    font-size: 1.2em;
+    font-family: Century gothic, sans-serif;
+    font-weight: 600;
+    transition: 0.4s ease;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.navbar-brand {
+    padding: 10px 15px!important;
+}
+
+a.navbar-brand .fa-globe {
+    font-size: 30px;
+    color: black;
+    transition: 0.5s ease;
+}
+
+a.navbar-brand .fa-globe:hover {
+    color: #3935e6;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: black!important;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #fff!important;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 996px;
+}
+
+.splash {
+    background: url("./IMAGES/final\ background.png");
+    background-size: cover;
+    color: #fff;
+}
+
+.splash .container {
+    padding-top: 15vh;
+    /* No JS fallback*/
+    padding-bottom: 10vh;
+    /* No JS fallback*/
+}
+
+.profile-image {
+    border-radius: 50%;
+    display: block;
+    max-height: 250px;
+    max-width: 250px;
+    margin: 0 auto 1em;
+    width: 100%;
+    opacity: 0.85;
+    margin-top: 1em;
+}
+
+.splash h1 {
+    font-size: 40px;
+    margin-bottom: .15em;
+    text-align: center;
+}
+
+.splash .lead,
+.splash .continue {
+    display: inline-block;
+    text-align: center;
+}
+
+h1.intro-text {
+    margin: 0;
+    color: #fff;
+}
+
+.splash .lead {
+    font-size: 30px;
+    margin-bottom: 1em;
+    font-family: Rockwell;
+}
+
+.navbar-inverse {
+    border: none!important;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#about,
+#portfolio,
+#contact {
+    padding-top: 3em!important;
+}
+
+.text-center {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+section h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+section.success {
+    color: #000;
+    padding: 4%;
+    background-color: #bdbdbd42;
+}
+
+section.success a {
+    color: black;
+    transition: 0.4s ease;
+}
+
+section.success a:hover {
+    outline: 0;
+    border: 2px solid #fff;
+}
+
+.contact-button {
+    padding-bottom: 2%;
+}
+
+hr.star-light,
+hr.star-portfolio {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 3px;
+    text-align: center;
+}
+
+hr.star-light:after,
+hr.star-portfolio:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.star-light {
+    border-color: #fff;
+}
+
+hr.star-portfolio {
+    border-color: black;
+}
+
+hr.star-portfolio:after {
+    color: black;
+    background-color: #eee;
+}
+
+hr.star-light:after {
+    color: #fff;
+}
+
+p.content-text {
+    font-size: 25px;
+    line-height: 1.6em;
+}
+
+
+/* Skills */
+
+.container1 {
+    /* top: 50%; */
+    /* left: 50%; */
+    transform: translate(-30%, -10%);
+    width: 60%;
+    margin-left: 40%;
+}
+
+.skill-container {
+    width: 100%;
+    background: #ddd;
+}
+
+.skill {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.html {
+    width: 90%;
+    background-color: #15a19a;
+}
+
+.css {
+    width: 80%;
+    background-color: #15a19a;
+}
+
+.js {
+    width: 60%;
+    background-color: #15a19a;
+}
+
+
+/* PORTFOLIO */
+
+.portfolio-card {
+    box-shadow: 0px 2px 5px #888888;
+    background: #eee;
+    border-radius: 4px;
+    width: 90%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-card:hover {
+    box-shadow: 0px 10px 10px #888888;
+    cursor: pointer
+}
+
+.portfolio-container-holder {
+    background: #bdbdbd42;
+    padding-bottom: 20px;
+}
+
+.portfolio-card-holder {
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-left: 6.5em;
+    margin-right: 1em;
+    /* height: 700px; */
+}
+
+.portfolio-img {
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+    height: 90%;
+}
+
+.portfolio-img-desc {
+    position: relative;
+    bottom: .9em;
+    left: 0px;
+    right: 0px;
+    background: rgb(223 220 220 / 0%);
+    color: #000;
+    text-align: center;
+    padding: 3px;
+    margin-bottom: .3em;
+}
+
+.portfolio-img-desc a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Contact */
+
+.contact-me-container {
+    padding: 3%;
+    background: #15a19a;
+}
+
+input {
+    height: 3em;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px black;
+    width: 50%;
+}
+
+input:active {
+    background-color: rgb(227, 231, 227);
+}
+
+.form-control {
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px black;
+    margin: .5em;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.form-control:active {
+    background-color: rgb(227, 231, 227);
+}
+
+.submit-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Footer */
+
+.socialmediaicons {
+    display: flex;
+    flex-direction: column;
+}
+
+.fa {
+    padding: 1.5em;
+    margin-left: 2em;
+    background-color: white;
+    display: inline-block;
+    color: black;
+    border-radius: 5em;
+}
+
+.active,
+.fa:hover {
+    background-color: rgb(3, 90, 93);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 5em;
+}
+
+footer {
+    background-color: #031322;
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 1%;
+    margin-bottom: 0%;
+}
