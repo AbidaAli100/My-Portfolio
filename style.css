@@ -70,29 +70,6 @@ button:hover {
     font-weight: bolder;
 }
 
-.navbar-brand {
-    padding: 10px 15px!important;
-}
-
-a.navbar-brand .fa-globe {
-    font-size: 30px;
-    color: black;
-    transition: 0.5s ease;
-}
-
-a.navbar-brand .fa-globe:hover {
-    color: #3935e6;
-}
-
-.navbar-inverse .navbar-toggle .icon-bar {
-    background-color: black!important;
-}
-
-.navbar-inverse .navbar-toggle:hover,
-.navbar-inverse .navbar-toggle:focus {
-    background-color: #fff!important;
-}
-
 .container {
     margin: 0 auto;
     max-width: 996px;
@@ -125,12 +102,6 @@ a.navbar-brand .fa-globe:hover {
 .splash h1 {
     font-size: 40px;
     margin-bottom: .15em;
-    text-align: center;
-}
-
-.splash .lead,
-.splash .continue {
-    display: inline-block;
     text-align: center;
 }
 
