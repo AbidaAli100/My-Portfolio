@@ -19,4 +19,4 @@
 - Google Chrome (UI)
 
 ## Live Link
-- https://abidaali100.github.io/My-Portfolio/
+-  https://abidaali100.github.io/My-Portfolio/
